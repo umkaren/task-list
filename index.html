@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things to Do</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+<body>
+    <div class="listSection">
+        <div class="titleSection">
+            <h1>To Do List</h1>
+        </div>
+    <ul id="unorderedList">
+        <li>Get groceries</li>
+        <li>Take the cat to the vet</li>
+        <li>Commit crimes</li>
+    </ul>
+    </div>
+    <div class="inputSection">
+        <div class="titleSection">
+            <h2>Add Item</h2>
+        </div>
+        <div class="textBoxPlusButton">
+                <label for="itemInput">Enter task here:</label><input type="text" id="itemInput">
+                <button onclick="newElement()" class="addButton">Add</button>
+        </div>
+    </div>
+    <script src="toDo.js"></script>  
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #54577C;
+    color: #FAFFD8;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+}
+
+.listSection, .textBoxPlusButton {
+    background-color: #9AA899;
+    border: 1rem solid #FAFFD8;
+    border-radius: 5px;
+}
+
+li {
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 0.2rem solid #54577C;
+    border-radius: 5px;
+    background-color: #FAFFD8;
+    color: #54577C;
+    font-size: 2em;
+    font-style: oblique;
+    letter-spacing: 0.2rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+input[type=checkbox] {
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+    filter: invert();
+}
+
+.textBoxPlusButton {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+input[type=text] {
+    width: 50%;
+    background-color: #FAFFD8;
+    border: hidden;
+    border-radius: 3px;
+    color: #54577C;
+
+}
+
+.textBoxPlusButton {
+    display: flex;
+}
+
+.addButton {
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+    width: 10%;
+    background-color: #54577C;
+    color: #FAFFD8;
+    border-radius: 3px;
+    border: hidden;
+}
